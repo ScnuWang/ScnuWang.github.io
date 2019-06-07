@@ -7,7 +7,7 @@
 
 # Site settings
 title: T.I.L # ex. I m Chuan
-name: Your Name # ex. DONGChuan
+name: Jason Wang # ex. DONGChuan
 email: scnu_wang@163.com
 location: Shenzhen.China # ex. Nice, France
 company: PAIC
@@ -21,7 +21,7 @@ repository: ScnuWang/ScnuWang.github.io # ex. DONGChuan/DONGChuan.github.io
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
 # For production, use your github page url. ex. http://dongchuan.github.io
-url: https://scnuwang.github.io/
+url: https://scnuwang.github.io
 
 ## Gem
 gems:
