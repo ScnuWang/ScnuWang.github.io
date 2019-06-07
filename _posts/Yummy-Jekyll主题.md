@@ -2,6 +2,7 @@
 layout: post
 title: Yummy-Jekyll主题
 category: jekyll
+date: 2019-06-07 12:00
 tags: [主题]
 ---
 
@@ -44,3 +45,9 @@ bundle install
 3. 在Disqus网站上添加白名单
 
    ![1559897796774](https://scnuWang.github.io/assets/images/1559897793753.png)
+
+### 使用技巧
+
+1. 文件名添加时间，可以自动识别为文章的时间，也可以在头部添加`date: 2019-06-07`属性
+2. tags属性可以添加多个
+3. 文章中的图片同意保存在`/assets/images`下面，地址前需要加上博客的地址`xxx.github.io`
