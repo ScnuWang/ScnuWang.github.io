@@ -1,6 +1,17 @@
+---
+layout: post
+title: Jekyll安装Yummy-Jekyll主题
+category: 工具
+tags: [Jekyll]
+---
+
+
+
 看到好几个很厉害的博主都是使用的这个主题，自己也是对这款主题青睐已久，但是之前尝试了好几次都没有完成的使用成功过，尝试了直接去照搬其他博主的仓库下来修改，不是这个依赖过时，就是那个依赖过时，对Ruby也不在行，所以经历千辛万苦还是没有成功，这次再鼓起勇气尝试，终于成功了。
 
 本地使用的Ruby的版本是：Ruby 2.5、gem 2.7.6.2
+
+### 安装主题
 
 0、下载主题：<https://github.com/DONGChuan/Yummy-Jekyll>
 
@@ -21,3 +32,13 @@ bundle install
 3、修改`_config.yml`
 
 4、发布文件放到`/_posts`目录下
+
+### 添加Disqus
+
+1. 注册一个Disqus账号
+
+2. 在Disqus上添加网站，会有一个已disqus.com结尾的账号，添加到`_config.yml`中disqus对应的配置处即可
+
+3. 在Disqus网站上添加白名单
+
+   ![1559897796774](assets/1559897796774.png)
