@@ -43,4 +43,4 @@ bundle install
 
 3. 在Disqus网站上添加白名单
 
-   ![1559897796774](../assets/images/1559897793753.png)
+   ![1559897796774](https://scnuWang.github.io/assets/images/1559897793753.png)
