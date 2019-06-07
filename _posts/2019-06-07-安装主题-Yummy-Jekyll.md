@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Jekyll安装Yummy-Jekyll主题
-category: 工具
-tags: [Jekyll]
+title: Yummy-Jekyll主题
+category: jekyll
+tags: [主题]
 ---
 
 
@@ -34,6 +34,8 @@ bundle install
 4、发布文件放到`/_posts`目录下
 
 ### 添加Disqus
+
+注意：这个工具需要有VPN的网络环境下才能正常使用。
 
 1. 注册一个Disqus账号
 
