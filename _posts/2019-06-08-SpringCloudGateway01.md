@@ -1,0 +1,16 @@
+---
+layout: post
+title: 微服务体系
+category: 微服务
+tags: [架构]
+---
+
+微服务架构体系
+
+微服务系统架构越来越流行，目前规模稍微大一点的公司都会采用微服务架构体系，微服务架构体系目前主要包括以下几部分：
+
+1. 注册中心：Eureka、Nacos、Zookeeper
+2. 网关：Spring Cloud Gateway、Zuul
+3. 负载均衡：Ribbon、Feign
+4. 限流熔断：Sentinel、Hystrix
+5. 监控：Actutator
