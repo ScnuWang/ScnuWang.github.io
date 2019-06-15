@@ -49,6 +49,30 @@ bundle install
 ### 使用技巧
 
 1. 文件名添加时间，可以自动识别为文章的时间，也可以在头部添加`date: 2019-06-07`属性,如果两个都存在，以date属性的为准。
+
 2. tags属性可以添加多个。
+
 3. 文章中的图片同意保存在`/assets/images`下面，地址前需要加上博客的地址`xxx.github.io`。
+
 4. 如果不想要右边的侧边栏，可通过在头部添加属性`no-post-nav: true`即可。
+
+5. 可以添加其他属性如：
+
+   ```
+   subtitle:   <h3>Download My CV</h3>
+               <a role="button" class="btn btn-primary hvr-grow-shadow" href="/assets/files/CV_Chuan_Dong_FR.pdf" target="_blanks">
+                <span class="flag-icon flag-icon-bl"></span> Français
+               </a>
+               <a role="button" class="btn btn-primary hvr-grow-shadow" href="/assets/files/CV_Chuan_Dong_FR.pdf" target="_blanks">
+                   <span class="flag-icon flag-icon-gb"></span> English
+               </a>
+               <a role="button" class="btn btn-primary hvr-grow-shadow" href="/assets/files/CV_Chuan_Dong_FR.pdf" target="_blanks">
+                   <span class="flag-icon flag-icon-cn"></span> 中文
+               </a>
+                               
+   css: ['about.css', 'sidebar-popular-repo.css', '../../bower_components/flag-icon-css/css/flag-icon.min.css']
+   ```
+   
+   效果如下：
+   
+   ![1560573683120](https://scnuWang.github.io/assets/images/1560573683120.png)
