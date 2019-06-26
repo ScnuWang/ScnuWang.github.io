@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spring Cloud Gateway官方文档笔记(一)
-category: Spring Cloud
+category: Spring Cloud Gateway
 tags: [Spring Cloud Gateway, 网关]
 ---
 
