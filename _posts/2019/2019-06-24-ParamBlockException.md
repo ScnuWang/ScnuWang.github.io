@@ -1,4 +1,9 @@
-
+---
+layout: post
+title: Sentinel默认限流方式？
+category: Sentinel
+tags: [Sentinel, 降级限流]
+---
 
 与SpringCloudGateway整合后，明明没有进行热点参数限流，为什么返回的是`Blocked by Sentinel: ParamFlowException`?
 
